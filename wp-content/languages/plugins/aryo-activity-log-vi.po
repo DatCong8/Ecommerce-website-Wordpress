@@ -1,0 +1,852 @@
+# Translation of Plugins - Activity Log &#8211; Monitor &amp; Record User Changes - Stable (latest release) in Vietnamese
+# This file is distributed under the same license as the Plugins - Activity Log &#8211; Monitor &amp; Record User Changes - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-04-16 09:06:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - Activity Log &#8211; Monitor &amp; Record User Changes - Stable (latest release)\n"
+
+#: i18n/strings.php:62
+msgid "failed"
+msgstr "thất bại"
+
+#: i18n/strings.php:61
+msgid "sent"
+msgstr "gửi"
+
+#: i18n/strings.php:60
+msgid "Emails"
+msgstr "Email"
+
+#. Description of the plugin
+#: aryo-activity-log.php
+msgid "This top rated Activity Log plugin helps you monitor & log all changes and actions on your WordPress site, so you can remain secure and organized."
+msgstr "Plugin Nhật ký Hoạt động được đánh giá cao này giúp bạn theo dõi và ghi lại tất cả các thay đổi và hành động trên trang web WordPress của bạn, giúp bạn duy trì an toàn và có tổ chức."
+
+#: classes/class-aal-settings.php:163
+msgid "<strong>Please note:</strong> if you choose \"Do not collect IP\", the IP column will be hidden in the log."
+msgstr "<strong>Vui lòng lưu ý:</strong> nếu bạn chọn \"Không thu thập IP\", cột IP sẽ bị ẩn trong bản ghi."
+
+#: classes/class-aal-settings.php:159
+msgid "Do not collect IP"
+msgstr "Không thu thập địa chỉ IP"
+
+#: classes/class-aal-settings.php:161
+msgid "Select the source of the visitor IP address. For example, if you are using Cloudflare, select <code>HTTP_CF_CONNECTING_IP</code>."
+msgstr "Chọn nguồn của địa chỉ IP của khách truy cập. Ví dụ, nếu bạn đang sử dụng Cloudflare, hãy chọn <code>HTTP_CF_CONNECTING_IP</code>."
+
+#: classes/class-aal-settings.php:141
+msgid "Visitor IP Detected"
+msgstr "Phát hiện IP của khách truy cập"
+
+#: i18n/strings.php:148
+msgid "wp_page_for_privacy_policy"
+msgstr "wp_page_for_privacy_policy"
+
+#: i18n/strings.php:81
+msgid "WPLANG"
+msgstr "WPLANG"
+
+#: i18n/strings.php:52
+msgid "Taxonomies"
+msgstr "Phân loại"
+
+#: i18n/strings.php:49
+msgid "Menus"
+msgstr "Menu"
+
+#: i18n/strings.php:43
+msgid "Widgets"
+msgstr "Widget"
+
+#: i18n/strings.php:39
+msgid "Themes"
+msgstr "Giao diện"
+
+#: i18n/strings.php:20
+msgid "Attachments"
+msgstr "Đính kèm"
+
+#: i18n/strings.php:12
+msgid "Posts"
+msgstr "Bài viết"
+
+#: classes/class-aal-activity-log-list-table.php:552
+msgid "Reset Filters"
+msgstr "Reset bộ lọc"
+
+#: classes/class-aal-activity-log-list-table.php:514
+msgid "All Topics"
+msgstr "Tất cả chủ đề"
+
+#: classes/class-aal-activity-log-list-table.php:321
+msgid "Username:"
+msgstr "Tên đăng nhập:"
+
+#: classes/class-aal-activity-log-list-table.php:279
+#: classes/class-aal-activity-log-list-table.php:298
+#: classes/class-aal-activity-log-list-table.php:307
+#: classes/class-aal-activity-log-list-table.php:317
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: classes/class-aal-activity-log-list-table.php:278
+#: classes/class-aal-activity-log-list-table.php:292
+msgid "View"
+msgstr "Xem"
+
+#: classes/class-aal-activity-log-list-table.php:172
+#: classes/class-aal-privacy.php:76
+msgid "Meta"
+msgstr "Meta"
+
+#: classes/class-aal-activity-log-list-table.php:171
+#: classes/class-aal-privacy.php:72
+msgid "Context"
+msgstr "Bối cảnh"
+
+#: classes/class-aal-activity-log-list-table.php:170
+#: classes/class-aal-privacy.php:68
+msgid "Topic"
+msgstr "Chủ đề"
+
+#: classes/class-aal-settings.php:117
+msgid "Don't Keep (Not recommended)"
+msgstr "Không giữ (không được khuyến khích)"
+
+#: classes/class-aal-settings.php:116 classes/class-aal-settings.php:133
+msgid "Keep"
+msgstr "Giữ"
+
+#: classes/class-aal-settings.php:107
+msgid "Keep Failed Login Logs"
+msgstr "Giữ nhật ký đăng nhập không thành công"
+
+#: i18n/strings.php:29
+msgid "removed"
+msgstr "xoá"
+
+#: i18n/strings.php:28
+msgid "registered"
+msgstr "đã đăng ký"
+
+#: i18n/strings.php:27
+msgid "failed_login"
+msgstr "failed_login"
+
+#: i18n/strings.php:21
+msgid "uploaded"
+msgstr "tải lên"
+
+#: classes/class-aal-settings.php:330
+msgid "Attention: We are going to DELETE ALL ACTIVITIES from the database. Are you sure you want to do that?"
+msgstr "Chú ý: Chúng tôi sẽ xoá TẤT CẢ CÁC HOẠT ĐỘNG khỏi cơ sở dữ liệu. Bạn chắc chắn muốn làm điều đó chứ?"
+
+#. Author URI of the plugin
+#: aryo-activity-log.php
+msgid "https://activitylog.io/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://activitylog.io/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Author of the plugin
+#: aryo-activity-log.php
+msgid "Activity Log Team"
+msgstr "Nhóm phát triển"
+
+#. Plugin URI of the plugin
+#: aryo-activity-log.php
+msgid "https://activitylog.io/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+msgstr "https://activitylog.io/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+
+#: classes/class-aal-privacy.php:106
+msgid "If you are a registered user, we save your content activity like create/update/delete posts and comments."
+msgstr "Nếu bạn là người dùng đã đăng ký, chúng tôi sẽ lưu hoạt động nội dung của bạn như tạo/cập nhật/xoá bài viết và bình luận."
+
+#: classes/class-aal-privacy.php:60
+msgid "Time"
+msgstr "Thời gian"
+
+#: classes/class-aal-privacy.php:19
+msgid "Activity Log Plugin"
+msgstr "Activity Log Plugin"
+
+#: classes/class-aal-activity-log-list-table.php:402
+msgid "Export as %s"
+msgstr "Xuất dưới dạng %s"
+
+#: classes/class-aal-activity-log-list-table.php:400
+msgid "Export filtered records as %s"
+msgstr "Xuất bản bản ghi đã lọc dưới dạng %s"
+
+#: classes/class-aal-activity-log-list-table.php:383
+msgid "Export File Format"
+msgstr "Định dạng File Xuất"
+
+#: classes/class-aal-settings.php:563
+msgid "and"
+msgstr "và"
+
+#: classes/class-aal-admin-ui.php:16 classes/class-aal-admin-ui.php:26
+msgctxt "Page and Menu Title"
+msgid "Activity Log"
+msgstr "Nhật ký"
+
+#: i18n/strings.php:17
+msgid "restored"
+msgstr "khôi phục"
+
+#: i18n/strings.php:24
+msgid "Users"
+msgstr "Người dùng"
+
+#: i18n/strings.php:32
+msgid "Plugins"
+msgstr "Plugin"
+
+#: notifications/class-aal-notification-email.php:69
+msgid "Customize the message using the following placeholders: %s"
+msgstr "Tuỳ chỉnh tin nhắn bằng cách sử dụng các chỗ giữ chỗ sau: %s"
+
+#: notifications/class-aal-notification-email.php:69
+msgid "Message"
+msgstr "Tin nhắn"
+
+#: notifications/class-aal-notification-email.php:68
+msgid "The Email address notifications will be sent to"
+msgstr "Các thông báo địa chỉ email sẽ được gửi đến"
+
+#: notifications/class-aal-notification-email.php:68
+msgid "To Email"
+msgstr "Gửi email"
+
+#: notifications/class-aal-notification-email.php:67
+msgid "The source Email address"
+msgstr "Địa chỉ email nguồn"
+
+#: notifications/class-aal-notification-email.php:67
+msgid "From Email"
+msgstr "Email người gửi"
+
+#: notifications/class-aal-notification-email.php:65
+msgid ""
+"Hi there!\n"
+"\n"
+"A notification condition on [sitename] was matched. Here are the details:\n"
+"\n"
+"[action-details]\n"
+"\n"
+"Sent by ARYO Activity Log"
+msgstr ""
+"Xin chào!\n"
+"\n"
+"Một điều kiện thông báo trên trang web [tên trang web] đã được kích hoạt. Dưới đây là chi tiết:\n"
+"\n"
+"[action-details]\n"
+"\n"
+"Được gửi bởi plugin Nhật ký Hoạt động ARYO"
+
+#: notifications/class-aal-notification-email.php:49
+msgid "New notification from Activity Log"
+msgstr "Thông báo mới từ Nhật ký Hoạt động"
+
+#: notifications/class-aal-notification-email.php:16
+msgid "Get notified by Email."
+msgstr "Nhận thông báo qua email."
+
+#: notifications/class-aal-notification-email.php:15
+msgid "Email"
+msgstr "Email"
+
+#: classes/class-aal-activity-log-list-table.php:243
+#: classes/class-aal-activity-log-list-table.php:486
+#: notifications/abstract-class-aal-notification-base.php:121
+msgid "N/A"
+msgstr "N/A"
+
+#: notifications/abstract-class-aal-notification-base.php:102
+msgid "IP Address"
+msgstr "Địa chỉ IP"
+
+#: notifications/abstract-class-aal-notification-base.php:100
+msgid "Object Name"
+msgstr "Tên đối tượng"
+
+#: notifications/abstract-class-aal-notification-base.php:99
+msgid "Object Type"
+msgstr "Loại đối tượng"
+
+#: i18n/strings.php:152
+msgid "downloaded"
+msgstr "downloaded"
+
+#: i18n/strings.php:151
+msgid "Export"
+msgstr "Xuất"
+
+#: i18n/strings.php:145
+msgid "tag_base"
+msgstr "tag_base"
+
+#: i18n/strings.php:144
+msgid "category_base"
+msgstr "category_base"
+
+#: i18n/strings.php:143
+msgid "permalink_structure"
+msgstr "permalink_structure"
+
+#: i18n/strings.php:140
+msgid "uploads_use_yearmonth_folders"
+msgstr "uploads_use_yearmonth_folders"
+
+#: i18n/strings.php:139
+msgid "large_size_h"
+msgstr "large_size_h"
+
+#: i18n/strings.php:138
+msgid "large_size_w"
+msgstr "large_size_w"
+
+#: i18n/strings.php:137
+msgid "medium_size_h"
+msgstr "medium_size_h"
+
+#: i18n/strings.php:136
+msgid "medium_size_w"
+msgstr "medium_size_w"
+
+#: i18n/strings.php:135
+msgid "thumbnail_crop"
+msgstr "thumbnail_crop"
+
+#: i18n/strings.php:134
+msgid "thumbnail_size_h"
+msgstr "thumbnail_size_h"
+
+#: i18n/strings.php:133
+msgid "thumbnail_size_w"
+msgstr "thumbnail_size_w"
+
+#: i18n/strings.php:130
+msgid "avatar_default"
+msgstr "avatar_default"
+
+#: i18n/strings.php:129
+msgid "avatar_rating"
+msgstr "avatar_rating"
+
+#: i18n/strings.php:128
+msgid "show_avatars"
+msgstr "show_avatars"
+
+#: i18n/strings.php:127
+msgid "blacklist_keys"
+msgstr "blacklist_keys"
+
+#: i18n/strings.php:126
+msgid "moderation_keys"
+msgstr "moderation_keys"
+
+#: i18n/strings.php:125
+msgid "comment_max_links"
+msgstr "comment_max_links"
+
+#: i18n/strings.php:124
+msgid "comment_whitelist"
+msgstr "comment_whitelist"
+
+#: i18n/strings.php:123
+msgid "comment_moderation"
+msgstr "comment_moderation"
+
+#: i18n/strings.php:122
+msgid "moderation_notify"
+msgstr "moderation_notify"
+
+#: i18n/strings.php:121
+msgid "comments_notify"
+msgstr "comments_notify"
+
+#: i18n/strings.php:120
+msgid "comment_order"
+msgstr "comment_order"
+
+#: i18n/strings.php:119
+msgid "default_comments_page"
+msgstr "default_comments_page"
+
+#: i18n/strings.php:118
+msgid "comments_per_page"
+msgstr "comments_per_page"
+
+#: i18n/strings.php:117
+msgid "page_comments"
+msgstr "page_comments"
+
+#: i18n/strings.php:116
+msgid "thread_comments_depth"
+msgstr "thread_comments_depth"
+
+#: i18n/strings.php:115
+msgid "thread_comments"
+msgstr "thread_comments"
+
+#: i18n/strings.php:114
+msgid "close_comments_days_old"
+msgstr "close_comments_days_old"
+
+#: i18n/strings.php:113
+msgid "close_comments_for_old_posts"
+msgstr "close_comments_for_old_posts"
+
+#: i18n/strings.php:112
+msgid "comment_registration"
+msgstr "comment_registration"
+
+#: i18n/strings.php:111
+msgid "require_name_email"
+msgstr "require_name_email"
+
+#: i18n/strings.php:110
+msgid "default_comment_status"
+msgstr "default_comment_status"
+
+#: i18n/strings.php:109
+msgid "default_ping_status"
+msgstr "default_ping_status"
+
+#: i18n/strings.php:108
+msgid "default_pingback_flag"
+msgstr "default_pingback_flag"
+
+#: i18n/strings.php:105
+msgid "blog_public"
+msgstr "blog_public"
+
+#: i18n/strings.php:104
+msgid "rss_use_excerpt"
+msgstr "rss_use_excerpt"
+
+#: i18n/strings.php:103
+msgid "posts_per_rss"
+msgstr "posts_per_rss"
+
+#: i18n/strings.php:102
+msgid "posts_per_page"
+msgstr "posts_per_page"
+
+#: i18n/strings.php:101
+msgid "page_for_posts"
+msgstr "page_for_posts"
+
+#: i18n/strings.php:100
+msgid "page_on_front"
+msgstr "page_on_front"
+
+#: i18n/strings.php:99
+msgid "show_on_front"
+msgstr "show_on_front"
+
+#: i18n/strings.php:96
+msgid "ping_sites"
+msgstr "ping_sites"
+
+#: i18n/strings.php:95
+msgid "default_email_category"
+msgstr "default_email_category"
+
+#: i18n/strings.php:94
+msgid "mailserver_pass"
+msgstr "mailserver_pass"
+
+#: i18n/strings.php:93
+msgid "mailserver_login"
+msgstr "mailserver_login"
+
+#: i18n/strings.php:92
+msgid "mailserver_url"
+msgstr "mailserver_url"
+
+#: i18n/strings.php:91
+msgid "default_post_format"
+msgstr "default_post_format"
+
+#: i18n/strings.php:90
+msgid "default_category"
+msgstr "default_category"
+
+#: i18n/strings.php:89
+msgid "use_balanceTags"
+msgstr "use_balanceTags"
+
+#: i18n/strings.php:88
+msgid "use_smilies"
+msgstr "use_smilies"
+
+#: i18n/strings.php:85
+msgid "start_of_week"
+msgstr "start_of_week"
+
+#: i18n/strings.php:84
+msgid "time_format"
+msgstr "time_format"
+
+#: i18n/strings.php:83
+msgid "date_format"
+msgstr "date_format"
+
+#: i18n/strings.php:82
+msgid "timezone_string"
+msgstr "timezone_string"
+
+#: i18n/strings.php:80
+msgid "default_role"
+msgstr "default_role"
+
+#: i18n/strings.php:79
+msgid "users_can_register"
+msgstr "users_can_register"
+
+#: i18n/strings.php:78
+msgid "admin_email"
+msgstr "admin_email"
+
+#: i18n/strings.php:77
+msgid "home"
+msgstr "trang chủ"
+
+#: i18n/strings.php:76
+msgid "siteurl"
+msgstr "siteurl"
+
+#: i18n/strings.php:75
+msgid "blogdescription"
+msgstr "blogdescription"
+
+#: i18n/strings.php:74
+msgid "blogname"
+msgstr "blogname"
+
+#: i18n/strings.php:71
+msgid "unspammed"
+msgstr "unspammed"
+
+#: i18n/strings.php:70
+msgid "spammed"
+msgstr "spammed"
+
+#: i18n/strings.php:69
+msgid "untrashed"
+msgstr "untrashed"
+
+#: i18n/strings.php:16
+msgid "trashed"
+msgstr "trashed"
+
+#: i18n/strings.php:68
+msgid "unapproved"
+msgstr "chưa được chấp thuận"
+
+#: i18n/strings.php:67
+msgid "approved"
+msgstr "được chấp thuận"
+
+#: i18n/strings.php:66
+msgid "pending"
+msgstr "chờ xử lý"
+
+#: i18n/strings.php:65
+msgid "Comments"
+msgstr "Góp ý"
+
+#: i18n/strings.php:57
+msgid "WordPress Auto Updated"
+msgstr "Cập nhật tự động WordPress"
+
+#: i18n/strings.php:56
+msgid "WordPress Updated"
+msgstr "Cập nhật WordPress"
+
+#: i18n/strings.php:55
+msgid "Core"
+msgstr "Cốt lõi"
+
+#: i18n/strings.php:162
+msgid "Taxonomy"
+msgstr "Phân loại"
+
+#: i18n/strings.php:161
+msgid "Menu"
+msgstr "Menu"
+
+#: i18n/strings.php:46
+msgid "Options"
+msgstr "Tùy chọn"
+
+#: i18n/strings.php:160
+msgid "Widget"
+msgstr "Widget"
+
+#: i18n/strings.php:40
+msgid "Theme Customizer"
+msgstr "Tùy biến giao diện"
+
+#: i18n/strings.php:159
+msgid "Theme"
+msgstr "Giao diện"
+
+#: i18n/strings.php:36
+msgid "File Updated"
+msgstr "File cập nhật"
+
+#: i18n/strings.php:35
+msgid "installed"
+msgstr "cài đặt"
+
+#: i18n/strings.php:34
+msgid "deactivated"
+msgstr "ngừng kích hoạt"
+
+#: i18n/strings.php:33
+msgid "activated"
+msgstr "được kích hoạt"
+
+#: i18n/strings.php:158
+msgid "Plugin"
+msgstr "Plugin"
+
+#: i18n/strings.php:26
+msgid "logged_in"
+msgstr "đã đăng nhập"
+
+#: i18n/strings.php:25
+msgid "logged_out"
+msgstr "đã đăng xuất"
+
+#: i18n/strings.php:156
+msgid "Attachment"
+msgstr "Đính kèm"
+
+#: i18n/strings.php:15
+msgid "deleted"
+msgstr "xoá"
+
+#: i18n/strings.php:14
+msgid "updated"
+msgstr "đã cập nhật"
+
+#: i18n/strings.php:13
+msgid "created"
+msgstr "tạo ra"
+
+#: i18n/strings.php:155
+msgid "Post"
+msgstr "Bài đăng"
+
+#: i18n/strings.php:9
+msgid "Editor"
+msgstr "Biên tập viên"
+
+#: i18n/strings.php:8
+msgid "Administrator"
+msgstr "Quản trị viên"
+
+#: i18n/strings.php:6
+msgid "Get aware of any activities that are taking place on your dashboard! Imagine it like a black-box for your WordPress site. e.g. post was deleted, plugin was activated, user logged in or logged out - it's all these for you to see."
+msgstr "Hiểu rõ về bất kỳ hoạt động nào đang diễn ra trên Bảng điều khiển của bạn! Hãy tưởng tượng nó như một hộp đen cho trang web WordPress của bạn. Ví dụ: bài viết đã bị xoá, plugin đã được kích hoạt, người dùng đã đăng nhập hoặc đăng xuất - tất cả đều có thể được bạn nhìn thấy."
+
+#: hooks/class-aal-hook-posts.php:10
+msgid "(no title)"
+msgstr "(không có tiêu đề)"
+
+#: classes/class-aal-settings.php:538
+msgid "A notification will be sent upon a successful match with the following conditions:"
+msgstr "Một thông báo sẽ được gửi khi có sự kết hợp thành công với các điều kiện sau:"
+
+#: classes/class-aal-settings.php:528
+msgid "not equals to"
+msgstr "không bằng"
+
+#: classes/class-aal-settings.php:527
+msgid "equals to"
+msgstr "bằng"
+
+#: classes/class-aal-settings.php:523
+msgid "Action Performed"
+msgstr "Hành động thực hiện"
+
+#: classes/class-aal-settings.php:522
+#: notifications/abstract-class-aal-notification-base.php:101
+msgid "Action Type"
+msgstr "Loại hành động"
+
+#: classes/class-aal-activity-log-list-table.php:168
+#: classes/class-aal-settings.php:521 i18n/strings.php:157
+#: notifications/abstract-class-aal-notification-base.php:98
+msgid "User"
+msgstr "Người dùng"
+
+#: classes/class-aal-settings.php:504
+msgid "No"
+msgstr "Không"
+
+#: classes/class-aal-settings.php:503
+msgid "Yes"
+msgstr "Có"
+
+#: classes/class-aal-settings.php:404
+msgid "Serve yourself with custom-tailored notifications. First, define your conditions. Then, choose how the notifications will be sent."
+msgstr "Phục vụ bản thân với thông báo được tùy chỉnh. Đầu tiên, xác định điều kiện của bạn. Sau đó, chọn cách thông báo sẽ được gửi đi."
+
+#: classes/class-aal-settings.php:398
+msgid "These are some basic settings for Activity Log."
+msgstr "Đây là một số cấu hình cơ bản cho Nhật ký hoạt động."
+
+#: classes/class-aal-settings.php:341
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Bạn không có quyền truy cập trang này."
+
+#: classes/class-aal-settings.php:319
+msgid "All activities have been successfully deleted."
+msgstr "Tất cả các hoạt động đã được xoá thành công."
+
+#: classes/class-aal-settings.php:260
+msgid "General"
+msgstr "Chung"
+
+#: classes/class-aal-settings.php:224
+msgid "Enable?"
+msgstr "Bật?"
+
+#: classes/class-aal-settings.php:196
+msgid "Notification Events"
+msgstr "Sự kiện thông báo"
+
+#: classes/class-aal-settings.php:179
+msgid "Warning: Clicking this will delete all activities from the database."
+msgstr "Cảnh báo: Nhấp chuột vào đây sẽ xoá tất cả các hoạt động từ cơ sở dữ liệu."
+
+#: classes/class-aal-settings.php:175
+msgid "<a href=\"%s\" id=\"%s\">Reset Database</a>"
+msgstr "<a href=\"%s\" id=\"%s\">Đặt lại cơ sở dữ liệu</a>"
+
+#: classes/class-aal-settings.php:170
+msgid "Delete Log Activities"
+msgstr "Xoá nhật ký hoạt động"
+
+#: classes/class-aal-settings.php:101 classes/class-aal-settings.php:203
+msgid "Maximum number of days to keep activity log. Leave blank to keep activity log forever (not recommended)."
+msgstr "Số ngày tối đa để giữ nhật ký hoạt động. Để trống để giữ nhật ký hoạt động mãi mãi (không được khuyến khích)."
+
+#: classes/class-aal-settings.php:100
+msgid "days."
+msgstr "ngày."
+
+#: classes/class-aal-settings.php:91
+msgid "Keep logs for"
+msgstr "Giữ nhật ký trong"
+
+#: classes/class-aal-settings.php:84
+msgid "Display Options"
+msgstr "Tùy chọn hiển thị"
+
+#: classes/class-aal-settings.php:43 classes/class-aal-settings.php:300
+msgid "Activity Log Settings"
+msgstr "Cấu hình nhật ký hoạt động"
+
+#: classes/class-aal-settings.php:29 classes/class-aal-settings.php:44
+msgid "Settings"
+msgstr "Thiết lập"
+
+#: classes/class-aal-notifications.php:299
+msgid "The AAL notification handler you are trying to register does not exist."
+msgstr "Trình xử lý thông báo AAL bạn đang cố gắng đăng ký không tồn tại."
+
+#: classes/class-aal-settings.php:189 classes/class-aal-settings.php:267
+msgid "Notifications"
+msgstr "Thông báo"
+
+#. Plugin Name of the plugin
+#: aryo-activity-log.php classes/class-aal-privacy.php:53
+#: classes/class-aal-privacy.php:109 classes/class-aal-settings.php:26
+#: i18n/strings.php:5
+msgid "Activity Log"
+msgstr "Nhật ký hoạt động (Activity Log)"
+
+#: classes/class-aal-activity-log-list-table.php:459
+msgid "Filter"
+msgstr "Lọc"
+
+#: classes/class-aal-activity-log-list-table.php:452
+msgid "Month"
+msgstr "Tháng"
+
+#: classes/class-aal-activity-log-list-table.php:451
+msgid "Week"
+msgstr "Tuần"
+
+#: classes/class-aal-activity-log-list-table.php:450
+msgid "Yesterday"
+msgstr "Hôm qua"
+
+#: classes/class-aal-activity-log-list-table.php:449
+msgid "Today"
+msgstr "Hôm nay"
+
+#: classes/class-aal-activity-log-list-table.php:448
+msgid "All Time"
+msgstr "Mọi lúc"
+
+#: classes/class-aal-activity-log-list-table.php:537
+msgid "All Actions"
+msgstr "Tất cả hành động"
+
+#: classes/class-aal-activity-log-list-table.php:497
+msgid "All Users"
+msgstr "Tất Cả Người Dùng"
+
+#: classes/class-aal-activity-log-list-table.php:473
+msgid "All Roles"
+msgstr "Tất cả vai trò"
+
+#: classes/class-aal-activity-log-list-table.php:359
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: classes/class-aal-activity-log-list-table.php:327
+msgid "All"
+msgstr "Tất cả"
+
+#: classes/class-aal-activity-log-list-table.php:237
+msgid "Unknown"
+msgstr "Không rõ"
+
+#: classes/class-aal-activity-log-list-table.php:203
+msgid "%s ago"
+msgstr "%s trước"
+
+#: classes/class-aal-activity-log-list-table.php:173
+#: classes/class-aal-privacy.php:64
+msgid "Action"
+msgstr "Hành động"
+
+#: classes/class-aal-activity-log-list-table.php:169
+#: classes/class-aal-privacy.php:80
+msgid "IP"
+msgstr "IP"
+
+#: classes/class-aal-activity-log-list-table.php:167
+msgid "Date"
+msgstr "Ngày"
+
+#: classes/class-aal-activity-log-list-table.php:156
+msgid "Activities"
+msgstr "Các hoạt động"
+
+#: aryo-activity-log.php:123 aryo-activity-log.php:134
+msgid "Cheatin&#8217; huh?"
+msgstr "Gian lận à?"
